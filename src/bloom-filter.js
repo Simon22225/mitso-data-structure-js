@@ -101,4 +101,5 @@ module.exports = class BloomFilter {
   getHashValues(item) {
     return [this.hash1(item), this.hash2(item), this.hash3(item)];
   }
+
 };
